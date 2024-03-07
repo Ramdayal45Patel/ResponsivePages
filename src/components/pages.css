@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.bottom {
+  width: 100%;
+  /* background-color: #ffff00; */
+  position: static;
+  overflow: hidden;
+  /* padding: 10px; */
+}
+
+.left,
+.right {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  /* background-color: red; */
+  padding: 10px;
+}
+
+.left {
+  /* background-color: green; */
+}
+
+.divider-x {
+  width: 5px;
+  height: 100%;
+  background-color: #999;
+  cursor: ew-resize;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.divider-y {
+  width: 100%;
+  height: 5px;
+  background-color: #999;
+  cursor: row-resize;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.grid-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  flex-direction: column;
+}
